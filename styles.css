@@ -2,7 +2,7 @@ body{
     background: hsl(30, 38%, 92%);
     padding-left: 5px;
     padding-right: 5px;
-    margin: 0;
+    margin: auto;
     max-width: 1920px;
 }
 
@@ -78,7 +78,7 @@ body{
 .icon-cart-button{
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    border: 2px solid hsl(158, 36%, 37%);
+    border: 2px none;
     background-color: hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
     padding: auto;
@@ -116,4 +116,10 @@ body{
 
 .github-link{
     text-decoration: none;
+}
+
+@media only screen and (min-width: 1440px) {
+    /* For Desktop */
+
+
 }
