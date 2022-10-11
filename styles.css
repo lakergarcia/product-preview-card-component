@@ -4,13 +4,12 @@ body{
     padding-right: 5px;
     margin: auto;
     max-width: 1920px;
+    min-width: 375px;
 }
 
 .main{
     background: hsl(0, 0%, 100%);
     border-radius: 20px 20px 20px 20px ;
-    margin: auto;
-    padding: auto;
     margin: 30px 10px 30px 10px;
 }
 
@@ -18,16 +17,17 @@ body{
     border: 15px 50px 0px 0px;
 } */
 
+
 .product{
     width: 100%;
-    border-radius: 20px 20px 0px 0px ;
+    border-radius: 20px 20px 0px 0px;
 }
+
 
 .perfume-p{
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    /* padding: 5px; */
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -78,7 +78,7 @@ body{
 .icon-cart-button{
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    border: 2px none;
+    border: 2px solid hsl(158, 36%, 37%);
     background-color: hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
     padding: auto;
@@ -96,10 +96,10 @@ body{
 }
 
 .cart-svg{
-    top: 17px;
     right: 10px;
     position: relative;
 }
+
 .attribution{
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
@@ -118,8 +118,33 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (min-width: 1440px) {
-    /* For Desktop */
+@media only screen and (min-width: 896px) {
+    /* For mobile landscape */
+
+.product{
+    max-width: 100%;
+}
+
+.main{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: none;
+    padding-right: none;
+}
+
+
+.container {
+    padding: none;
+    margin: none;
+    border: none;
+}
+
+.img-parfum{
+    padding: none;
+    margin: none;
+    border: none;
+}
+
 
 
 }
