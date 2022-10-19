@@ -42,3 +42,7 @@ The designs were created to the following widths:
     - CSS rules
         - font-family: 'Fraunces', serif;
         - font-family: 'Montserrat', sans-serif;
+
+- Hover colors:
+    - hsl(153, 38%, 17%)
+    - hsl(158, 36%, 37%)
