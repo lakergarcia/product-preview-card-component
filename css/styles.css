@@ -1,0 +1,53 @@
+body{
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+    padding: 10px;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    font: white;
+}
+
+button:hover{
+    color: hsl(153, 38%, 17%);
+}
+
+footer{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: small;
+    position: relative;
+}
+
+.info{
+    padding: 0px 10px;
+}
+.product-desktop{
+    display: none;
+}
+
+.product-mobile{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
