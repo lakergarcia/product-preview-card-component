@@ -24,20 +24,29 @@ p{
 
 button{
     background-color: hsl(158, 36%, 37%);
-    border: none;
+    margin-bottom: 15px;
+    margin-left: 15px;
     border-radius: 5px;
-    font: white;
+    border: none;
+    padding: 10px 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    white-space: nowrap;
 }
 
 button:hover{
-    color: hsl(153, 38%, 17%);
+    background-color: hsl(153, 38%, 17%);
 }
+
 
 footer{
     padding-top: 10px;
     margin: 10px;
     font-size: small;
-    position: relative;
+    position: center;
+    display: flex;
+    justify-content: center;
 }
 
 .info{
