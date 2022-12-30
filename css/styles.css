@@ -74,15 +74,25 @@ footer{
     justify-content: center;
 }
 
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    justify-content: baseline;
+}
+
 .new-price{
     color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
 }
 
 .old-price{
     text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
-    bottom: 55px;
-    left: 125px;
+    top: 10px;
+    left: 30px;
 }
 
 .info{
