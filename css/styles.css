@@ -1,14 +1,15 @@
 body{
     min-width: 375px;
-    max-width: 1440px;
+    max-width: 812px;
     background-color: hsl(30, 38%, 92%);
-    padding: 10px;
+    padding: auto;
+    margin: auto;
 }
 
 main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-
+    margin: auto;
 }
 
 h1{
@@ -22,21 +23,36 @@ p{
     color: hsl(228, 12%, 48%);
 }
 
-button{
+.button{
     background-color: hsl(158, 36%, 37%);
-    margin-bottom: 15px;
-    margin-left: 15px;
+    border: hsl(158, 36%, 37%);
+    margin: 10px 10px;
     border-radius: 5px;
-    border: none;
-    padding: 10px 130px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: white;
-    white-space: nowrap;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-button{
+    display: flex;
+    justify-content: center;
 }
 
 button:hover{
     background-color: hsl(153, 38%, 17%);
+}
+
+.icon-cart{
+    margin-right: 10px;
+}
+
+.button-text{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2px;
+    font-weight: bold;
 }
 
 
@@ -44,9 +60,20 @@ footer{
     padding-top: 10px;
     margin: 10px;
     font-size: small;
-    position: center;
+    position: relative;
     display: flex;
     justify-content: center;
+}
+
+.new-price{
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+    text-decoration: line-through;
+    position: relative;
+    bottom: 55px;
+    left: 125px;
 }
 
 .info{
