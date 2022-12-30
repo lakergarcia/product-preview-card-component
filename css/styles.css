@@ -23,6 +23,11 @@ p{
     color: hsl(228, 12%, 48%);
 }
 
+.container{
+    margin: 0% 5%;
+    margin-top: 10%;
+}
+
 .images{
     width: 100%;
 }
