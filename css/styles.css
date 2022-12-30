@@ -23,6 +23,10 @@ p{
     color: hsl(228, 12%, 48%);
 }
 
+.images{
+    width: 100%;
+}
+
 .button{
     background-color: hsl(158, 36%, 37%);
     border: hsl(158, 36%, 37%);
