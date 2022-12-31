@@ -1,6 +1,6 @@
 body{
     min-width: 375px;
-    max-width: 812px;
+    max-width: 1440px;
     background-color: hsl(30, 38%, 92%);
     padding: auto;
     margin: auto;
@@ -98,11 +98,69 @@ footer{
 .info{
     padding: 0px 10px;
 }
-.product-desktop{
-    display: none;
-}
 
 .product-mobile{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
+
+/* mobile desing */
+
+@media only screen and (min-width: 280px){
+
+    .product-desktop{
+        display: none;
+    }
+
+    body{
+        margin: auto;
+    }
+}
+
+/* Desktop design */
+
+    @media only screen and (min-width: 1440px){
+        .container{
+            display: flex;
+            border-radius: 10px;
+            width: 50%;
+            align-items: center;
+            margin-left: 25%;
+        }
+
+        .info{
+            width: 70%;
+            white-space: inherit;
+            align-items: center;
+        }
+
+        .text{
+            font-size: 14px;
+        }
+
+
+        .product-mobile{
+            display: none;
+        }
+
+        .product-desktop{
+            display: inline-flex;
+            width: 100%;
+            border-radius: 10px 0px 0px 10px;
+            margin-bottom: none;
+        }
+
+
+        .info-side{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            margin-bottom: 0px;
+            block-size: 100%;
+        }
+
+        .button{
+            margin-bottom: none;
+            width: 50%;
+        }
+    }
