@@ -104,6 +104,14 @@ footer{
     border-radius: 10px 10px 0px 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
+.fm-link, .github-link{
+    white-space: pre;
+}
+
 /* mobile desing */
 
 @media only screen and (min-width: 280px){
@@ -123,15 +131,16 @@ footer{
         .container{
             display: flex;
             border-radius: 10px;
-            width: 50%;
+            width: 40%;
             align-items: center;
-            margin-left: 25%;
+            margin-left: 30%;
         }
 
         .info{
-            width: 70%;
+            width: 100%;
             white-space: inherit;
             align-items: center;
+            padding: 5px;
         }
 
         .text{
@@ -145,7 +154,8 @@ footer{
 
         .product-desktop{
             display: inline-flex;
-            width: 100%;
+            width: 315px;
+            height: auto;
             border-radius: 10px 0px 0px 10px;
             margin-bottom: none;
         }
@@ -154,13 +164,19 @@ footer{
         .info-side{
             display: flex;
             flex-direction: column;
-            margin-left: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
             margin-bottom: 0px;
             block-size: 100%;
         }
 
+        .old-price{
+            position: relative;
+            right: 5px;
+        }
+
         .button{
             margin-bottom: none;
-            width: 50%;
+            width: 210px;
         }
     }
