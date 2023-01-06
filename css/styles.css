@@ -88,13 +88,17 @@ footer{
 .new-price{
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
+    position: relative;
+    left: 15px;
 }
 
 .old-price{
     text-decoration: line-through;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    top: 10px;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    top: 20px;
     left: 30px;
 }
 
