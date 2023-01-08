@@ -36,8 +36,8 @@ source[srcset='images/image-product-mobile.jpg']{
 }
 
 .product{
-    width: auto;
-    object-fit: fill;
+    max-width: 100%;
+    display: block;
 }
 
 
