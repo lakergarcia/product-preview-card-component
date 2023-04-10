@@ -1,8 +1,7 @@
 body{
-    max-width: 1440px;
     background-color: hsl(30, 38%, 92%);
     padding: auto;
-    margin: auto;
+    margin: 0;
 }
 
 main{
@@ -17,14 +16,11 @@ h1{
 }
 
 p{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
 }
 
-source[srcset='images/image-product-mobile.jpg']{
-    width: auto;
-}
 
 .button-text{
     margin: 15px;
@@ -122,6 +118,9 @@ a{
 .fm-link, .github-link{
     white-space: pre;
 }
+
+
+/* First Responsive */
 
 /* mobile desing */
 
