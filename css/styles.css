@@ -99,7 +99,7 @@ footer{
     position: relative;
     color: hsl(228, 12%, 48%);
     font-size: small;
-    top: 20px;
+    top: 30px;
     left: 30px;
 }
 
@@ -126,7 +126,7 @@ a{
             border-radius: 10px;
             width: 50%;
             align-items: center;
-            margin: 10% 20%;
+            margin: 10% 25%;
         }
 
         .picture{
@@ -141,7 +141,7 @@ a{
         }
 
         .text{
-            font-size: 14px;
+            font-size: small;
         }
 
         .info-side{
