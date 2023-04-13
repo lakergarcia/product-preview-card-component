@@ -7,7 +7,7 @@ body{
 main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    margin: auto;
+    margin: 0;
 }
 
 h1{
@@ -27,7 +27,7 @@ p{
 }
 
 .container{
-    margin: 0% 5%;
+    margin: 0;
     margin-top: 10%;
 }
 
@@ -88,6 +88,7 @@ footer{
 .new-price{
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
+    font-size: 2rem;
     position: relative;
     left: 15px;
 }
@@ -120,20 +121,7 @@ a{
 }
 
 
-/* First Responsive */
-
-/* mobile desing */
-
-@media only screen and (min-width: 280px){
-
-    /* .product-desktop{
-        display: none;
-    } */
-
-    body{
-        margin: auto;
-    }
-}
+/* Responsive */
 
 /* Desktop design */
 
