@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+
 main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
@@ -78,7 +79,8 @@ footer{
 }
 
 .prices{
-    display: flex;
+    display: grid;
+    /* display: flex; */
     flex-direction: row;
     justify-content: flex-start;
     margin: 10px;
@@ -134,10 +136,10 @@ a{
         }
 
         .info{
-            width: 100%;
+            width: 50%;
             white-space: inherit;
             align-items: center;
-            padding: 5px;
+            /* padding: 5px; */
         }
 
         .text{
@@ -150,7 +152,8 @@ a{
             margin-left: 10px;
             margin-right: 10px;
             margin-bottom: 0px;
-            block-size: 100%;
+            block-size: 50%;
+            position:relative;
         }
 
         .old-price{
