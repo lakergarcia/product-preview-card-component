@@ -174,3 +174,62 @@ a{
             bottom: 120px;
         }
     }
+
+    /* Desktop tablet */
+
+/*     
+
+    @media only screen and (min-width: 768px){
+        .container{
+            display: flex;
+            border-radius: 10px;
+            width: 50%;
+            align-items: center;
+            margin: 10% 25%;
+        }
+
+        .picture{
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        .info{
+            width: 50%;
+            white-space: inherit;
+            align-items: center;
+        }
+
+        .text{
+            font-size: small;
+        }
+
+        .info-side{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            block-size: 40%;
+            position:relative;
+        }
+
+        .old-price{
+            position: relative;
+            right: 5px;
+        }
+
+        .prices{
+            display: flex;
+            width: 50%;
+        }
+
+        .button{
+            margin-bottom: none;
+            width: 210px;
+        }
+
+        footer{
+            bottom: 120px;
+        }
+    }
+
+*/
