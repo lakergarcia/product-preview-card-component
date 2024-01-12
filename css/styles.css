@@ -139,7 +139,6 @@ a{
             width: 50%;
             white-space: inherit;
             align-items: center;
-            /* padding: 5px; */
         }
 
         .text{
@@ -152,7 +151,7 @@ a{
             margin-left: 10px;
             margin-right: 10px;
             margin-bottom: 0px;
-            block-size: 50%;
+            block-size: 40%;
             position:relative;
         }
 
@@ -163,6 +162,7 @@ a{
 
         .prices{
             display: flex;
+            width: 50%;
         }
 
         .button{
